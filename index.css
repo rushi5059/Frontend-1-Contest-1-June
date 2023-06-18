@@ -13,8 +13,7 @@ body{
 #logo{
     font-weight: 700;
     font-size: 30px;
-    margin-right: 70px;
-    
+    margin-right: 70px;    
 }
 #login, #explore, #rent{
     text-align: center;
@@ -127,7 +126,8 @@ body{
 
 
   .glow-button {
-    /* Add your button styles here */
+    display: flex;
+    justify-content: space-between;
     padding: 10px 20px;
     background-color: #262626;
     border: none;
@@ -137,5 +137,5 @@ body{
   }
   
   .glow-button:hover {
-    box-shadow: 0 0 10px #0a6cbd; /* Adjust the color and size of the glow effect as desired */
+    box-shadow: 0 0 10px #0a6cbd;
   }
